@@ -1,0 +1,19 @@
+plugins {
+    id 'io.ratpack.ratpack-groovy' version '1.5.4'
+}
+
+apply plugin: "io.ratpack.ratpack-groovy"
+apply plugin: "idea"
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    runtime 'org.slf4j:slf4j-simple:1.7.25'
+
+    implementation 'commons-io:commons-io:2.4'
+}
+
+
+
